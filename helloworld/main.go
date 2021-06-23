@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import "github.com/ryo310jp/calculator"
 
 func main() {
-    fmt.Println("Hello, World!")
+    total := calculator.Sum(3, 5)
+    println(total)
+    println("Version: ", calculator.Version)
 }
