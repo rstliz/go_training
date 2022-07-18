@@ -1,3 +1,3 @@
-module github.com/ryo310jp/calculator
+module github.com/rstliz/calculator
 
-go 1.16
+go 1.18
